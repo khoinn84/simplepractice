@@ -6,3 +6,10 @@ Create acronyms of input string
 
 02.alarmclock-v1.py
 Enter the alarm time, compare the hour and minute with current time, if they are the same then play the alarm sound
+
+
+03.sliceemail-v1.py
+03.sliceemail-v2.py
+original project let people input an email address, then slice it to get the username and the domain
+version 1 will try to get the same result
+version 2 will read all the email addresses from a text file and slice them to get the (username,domain) into a list of tuples.
