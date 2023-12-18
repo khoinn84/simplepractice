@@ -24,3 +24,8 @@ Practice the methods of list: append(), extend()
 04.story-generator.py
 generate a random sentence using random module and a preset of lists of words
 Practice using random module
+
+05.generate-password.py
+Generate random password base on the number of characters input by user
+Practice using random module to generate integer number
+Practice using string module to get printable ASCII characters by using the string.printable constant
