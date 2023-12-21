@@ -6,9 +6,7 @@ compScore = 0
 cont = True
 
 def Win(playerC, compC):
-	global playerScore
-	global compScore
-	global cont
+	global playerScore, compScore, cont
 
 	if playerC == compC:
 		print('Tie!')
@@ -18,11 +16,8 @@ def Win(playerC, compC):
 	elif (playerC == 'Rock' and compC == 'Paper') or (playerC == 'Paper' and compC == 'Scissors') or (playerC == 'Scissors' and compC == 'Rock'):
 		print(f'Computer goes {compC}, sorry, you lose.\n')
 		compScore += 1
-	x = input('Play again? (Y/N):')
-	if x == 'Y':
-		cont = True
-	else:
-		cont = False
+
+	cont = True if input('Play again? (Y/N):') == 'Y' else False
 
 
 while cont:
